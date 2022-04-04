@@ -26,7 +26,7 @@ $americanTruck = new Truck('purple', 4, 'fuel', 100);
 $frenchTruck = new Truck('blue', 3, 'hydrogen', 75);
 $germanTruck = new Truck('red', 2, 'electric', 55);
 
-$motorway = new MotorWay(4, 130);
+$motorway = new MotorWay();
 echo $motorway->addVehicle($bicycle);
 echo $motorway->addVehicle($skateboard);
 $motorway->addVehicle($tesla);
@@ -34,7 +34,7 @@ $motorway->addVehicle($ferrari);
 $motorway->addVehicle($schoolBus);
 var_dump($motorway);
 
-$pedestrianWay = new PedestrianWay(1, 10);
+$pedestrianWay = new PedestrianWay();
 echo $pedestrianWay->addVehicle($tesla);
 echo $pedestrianWay->addVehicle($schoolBus);
 echo $pedestrianWay->addVehicle($americanTruck);
@@ -42,7 +42,7 @@ $pedestrianWay->addVehicle($bicycle);
 $pedestrianWay->addVehicle($skateboard);
 var_dump($pedestrianWay);
 
-$residentialWay = new ResidentialWay(2, 50);
+$residentialWay = new ResidentialWay();
 $residentialWay->addVehicle($tesla);
 $residentialWay->addVehicle($ferrari);
 $residentialWay->addVehicle($schoolBus);

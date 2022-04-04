@@ -5,9 +5,8 @@ require_once 'HighWay.php';
 final class MotorWay extends HighWay
 {
     //Properties
-    // protected array $currentVehicle = [''];
-    // protected int $nbLane = 4;
-    // protected int $maxSpeed = 130;
+    protected int $nbLane = 4;
+    protected int $maxSpeed = 130;
 
     //Methods
     public function addVehicle(Vehicle $vehicle)

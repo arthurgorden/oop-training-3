@@ -9,11 +9,11 @@ abstract class HighWay
     protected int $maxSpeed;
 
     //Construct
-    public function __construct(int $nbLane, int $maxSpeed)
-    {
-        $this->nbLane = $nbLane;
-        $this->maxSpeed = $maxSpeed;        
-    }
+    // public function __construct(int $nbLane, int $maxSpeed)
+    // {
+    //     $this->nbLane = $nbLane;
+    //     $this->maxSpeed = $maxSpeed;        
+    // }
 
     //Getters and Setters
     /**
